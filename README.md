@@ -3,7 +3,7 @@ This repo contains a curated list of resources on 3D LLM-based autonomous drivin
 </p>
 
 <p align="center">
-<img src="/drivellm_timeline.drawio.png" width="1000" height="600"/>
+<img src="/drivellm_timeline.drawio.png" width="900" height="550"/>
 <p>
 
 
