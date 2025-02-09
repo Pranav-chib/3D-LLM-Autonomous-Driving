@@ -30,7 +30,7 @@ The ongoing advancements in 3D perception and the integration of Large Language 
 ## Table of Contents
 This repo contains a curated list of resources on 3D LLM-based autonomous driving research, arranged chronologically. We regularly update it with the latest papers and their corresponding open-source implementations.
 1. [LLM driving Agents](#LLM-Driving-Agents)
-2. [3D Perception based LLM driving Agents](#EXPLAINABILITY)
+2. [3D Perception based LLM driving Agents](#3D-Perception-based-LLM-Driving-Agents)
 3. [Generative World Models](#EVALUATION)
 4. [Language Based AD Datasets (QA, Captioning etc.)](#SAFETY)
 <hr />
@@ -77,3 +77,45 @@ large language mode**](https://arxiv.org/abs/2310.01412) [RAL-2024]<br> Zhenhua 
 
 - Datasets: [BDD-X](https://github.com/JinkyuKimUCB/BDD-X-dataset)
 
+  
+[🔼 Back to top](#Table-of-Contents)
+<hr />
+
+
+# 3D Perception based LLM Driving Agents
+
+
+[**Omnidrive: A holistic llm-agent framework
+for autonomous driving with 3d perception, reasoning and planninge**](https://arxiv.org/abs/2405.01533) [arXiv-2024]<br> Shihao Wang, Zhiding Yu, Xiaohui Jiang, Shiyi Lan, Min Shi, Nadine Chang, Jan Kautz, Ying Li, Jose M. Alvarez <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NVlabs/OmniDrive) 
+
+- LLM Arch: [GPT4](https://platform.openai.com/docs/models), [EVA-02-L](https://github.com/baaivision/EVA) 
+
+- Task: 3D perception, VQA
+
+- Metrics: CR, IR, METEOR, ROUGE and CIDEr
+
+- Datasets: [OmniDrive](https://github.com/NVlabs/OmniDrive/tree/main), [nuScenes](https://www.nuscenes.org/nuscenes)
+
+
+[**Is a 3D-Tokenized LLM the Key to Reliable Autonomous Driving?**](https://arxiv.org/abs/2405.18361) [arXiv-2024]<br> Yifan Bai, Dongming Wu, Yingfei Liu, Fan Jia, Weixin Mao, Ziheng Zhang, Yucheng Zhao, Jianbing Shen, Xing Wei, Tiancai Wang, Xiangyu Zhang <br>
+
+- LLM Arch: [Vicuna](https://lmsys.org/blog/2023-03-30-vicuna/), [StreamPETR](https://github.com/exiawsh/StreamPETR), [TopoMLP](https://github.com/wudongming97/TopoMLP)
+
+- Task: 3D perception
+
+- Metrics: Avg. L2 and Collision Rate
+
+- Datasets: [nuScenes](https://www.nuscenes.org/nuscenes)
+
+
+
+[**DME-Driver: Integrating Human Decision Logic and 3D Scene Perception in Autonomous Driving**](https://arxiv.org/abs/2401.03641) [arXiv-2024]<br> Wencheng Han, Dongqian Guo, Cheng-Zhong Xu, Jianbing Shen <br>
+
+- LLM Arch: [GPT4](https://platform.openai.com/docs/models), [LLaVA](https://llava-vl.github.io/blog/2024-01-30-llava-next/)
+
+- Task: Perception, Planning
+
+- Metrics: Avg. L2 and Collision Rate
+
+- Datasets: [Human-Driver Behavior and Decision-Making](https://arxiv.org/abs/2401.03641)
