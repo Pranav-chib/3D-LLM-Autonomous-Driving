@@ -31,8 +31,8 @@ The ongoing advancements in 3D perception and the integration of Large Language 
 This repo contains a curated list of resources on 3D LLM-based autonomous driving research, arranged chronologically. We regularly update it with the latest papers and their corresponding open-source implementations.
 1. [LLM driving Agents](#LLM-Driving-Agents)
 2. [3D Perception based LLM driving Agents](#3D-Perception-based-LLM-Driving-Agents)
-3. [Generative World Models](#EVALUATION)
-4. [Language Based AD Datasets (QA, Captioning etc.)](#SAFETY)
+3. [Generative World Models](#Generative-World-Models)
+4. [Language Based AD Datasets (QA, Captioning etc.)](#Language-Based-AD-Datasets)
 <hr />
 
 
@@ -172,3 +172,28 @@ for autonomous driving with 3d perception, reasoning and planninge**](https://ar
 - Task: Generation
 
 - Datasets: [nuScenes](https://www.nuscenes.org/nuscenes)
+
+[🔼 Back to top](#Table-of-Contents)
+<hr />
+
+
+# Language Based AD Datasets
+
+
+  | Dataset  |   Reasoning    |   Outlook | Size     | 
+|:---------:|:-------------:|:------:|:--------------------------------------------:|
+| [BDD-X 2018](https://github.com/JinkyuKimUCB/explainable-deep-driving)  | Description | Planning Description & Justification    | 8M frames, 20k text strings   
+| [HAD HRI Advice 2019](https://usa.honda-ri.com/had)   | Advice | Goal-oriented & stimulus-driven advice | 5,675 video clips, 45k text strings  
+| [Talk2Car 2019](https://github.com/talk2car/Talk2Car)  | Description |  Goal Point Description | 30k frames, 10k text strings 
+| [DRAMA 2022](https://usa.honda-ri.com/drama)  | Description |  QA + Captions | 18k frames, 100k text strings 
+| [nuScenes-QA 2023](https://arxiv.org/abs/2305.14836)   |  QA |  Perception Result     | 30k frames, 460k QA pairs
+| [DriveLM-2023](https://github.com/OpenDriveLab/DriveLM) |  QA + Scene Description | Perception, Prediction and Planning with Logic | 30k frames, 600k QA pairs 
+| [Rank2Tell-2023](https://usa.honda-ri.com/rank2tell) |  Captioning and Reasoning | Localization and Ranking | 118 frames
+| [DRAMA-2023](http://usa.honda-ri.com/drama) |  Captioning and Reasoning | Perception and Prediction | 17785 frames
+| [LingoQA-2024](https://github.com/wayveai/LingoQA) |  Captioning and Reasoning | Perception and Planning | 28k frames, 419.9k Annotations
+| [MAPLM-2024](https://github.com/LLVM-AD/MAPLM) |  QA, Captioning and Reasoning | Perception and Prediction | 2M frames
+
+
+
+[🔼 Back to top](#Table-of-Contents)
+<hr />
