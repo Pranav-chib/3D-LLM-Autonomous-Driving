@@ -119,3 +119,56 @@ for autonomous driving with 3d perception, reasoning and planninge**](https://ar
 - Metrics: Avg. L2 and Collision Rate
 
 - Datasets: [Human-Driver Behavior and Decision-Making](https://arxiv.org/abs/2401.03641)
+
+
+[🔼 Back to top](#Table-of-Contents)
+<hr />
+
+# Generative World Models
+
+
+[**Dolphins: Multimodal Language Model for Driving**](https://arxiv.org/abs/2312.00438) [ECCV-2024]<br> Yingzi Ma, Yulong Cao, Jiachen Sun, Marco Pavone, Chaowei Xiao <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SaFoLab-WISC/Dolphins) 
+
+- LLM Arch: [Flamingo](https://github.com/mlfoundations/open_flamingo)
+[MPT](https://huggingface.co/docs/transformers/en/model_doc/mpt), [BLIP](https://huggingface.co/docs/transformers/model_doc/blip), 
+[CLIP](https://github.com/openai/CLIP)
+
+- Task: Prediction and Planning VQA
+
+- Metrics: VQA accuracy
+
+- Datasets:     [GQA](https://cs.stanford.edu/people/dorarad/gqa/about.html), [MSCOCO](https://cocodataset.org/#home), [VQAv2](https://visualqa.org/), [OK-VQA](https://okvqa.allenai.org/), [TDIUC](https://kushalkafle.com/projects/tdiuc.html), [Visual Genome dataset](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html), [BDD-X](https://github.com/JinkyuKimUCB/BDD-X-dataset)
+
+
+
+[**SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model**](https://arxiv.org/abs/2309.13193) [arXiv-2024]<br> Ye Jin, Ruoxuan Yang, Zhijie Yi, Xiaoxi Shen, Huiling Peng, Xiaoan Liu, Jingli Qin, Jiayang Li, Jintao Xie, Peizhong Gao, Guyue Zhou, Jiangtao Gong <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AIR-DISCOVER/Driving-Thinking-Dataset) 
+
+- LLM Arch: [GPT4](https://platform.openai.com/docs/models) 
+
+- Task: Planning, Control
+
+- Metrics: Collision Rate, ANOVAs
+
+- Datasets: [Driving-Thinking-Dataset based on CARLA](https://github.com/carla-simulator)
+
+
+[**DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving**](https://arxiv.org/abs/2309.09777) [ECCV-2024]<br> Xiaofeng Wang, Zheng Zhu, Guan Huang, Xinze Chen, Jiagang Zhu, Jiwen Lu <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://drivedreamer.github.io/) 
+
+- LLM Arch:  [CLIP](https://github.com/openai/CLIP), [Stable Diffusion v1.4](https://huggingface.co/CompVis/stable-diffusion-v1-4)
+
+- Task: Generation
+
+- Datasets: [nuScenes](https://www.nuscenes.org/nuscenes)
+
+[**DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation**](https://arxiv.org/abs/2403.06845) [arXiv-2024]<br> Guosheng Zhao, Xiaofeng Wang, Zheng Zhu, Xinze Chen, Guan Huang, Xiaoyi Bao, Xingang Wang <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://drivedreamer2.github.io) 
+
+
+- LLM Arch:  [GPT-3.5](https://platform.openai.com/docs/models) 
+
+- Task: Generation
+
+- Datasets: [nuScenes](https://www.nuscenes.org/nuscenes)
