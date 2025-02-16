@@ -186,6 +186,7 @@ for autonomous driving with 3d perception, reasoning and planninge**](https://ar
 
 [**DME-Driver: Integrating Human Decision Logic and 3D Scene Perception in Autonomous Driving**](https://arxiv.org/abs/2401.03641) [arXiv-2024]<br> Wencheng Han, Dongqian Guo, Cheng-Zhong Xu, Jianbing Shen <br>
 
+
 - LLM Arch: [GPT4](https://platform.openai.com/docs/models), [LLaVA](https://llava-vl.github.io/blog/2024-01-30-llava-next/)
 
 - Task: Perception, Planning
@@ -193,6 +194,37 @@ for autonomous driving with 3d perception, reasoning and planninge**](https://ar
 - Metrics: Avg. L2 and Collision Rate
 
 - Datasets: [Human-Driver Behavior and Decision-Making](https://arxiv.org/abs/2401.03641)
+
+
+
+[**Talk2bev: Language-enhanced bird’s-eye view maps for autonomous driving**](https://arxiv.org/abs/2310.02251) [ICRA-2024]<br> Tushar Choudhary, Vikrant Dewangan, Shivam Chandhok, Shubham Priyadarshan, Anushka Jain, Arun K. Singh, Siddharth Srivastava, Krishna Murthy Jatavallabhula, K. Madhava Krishna <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://llmbev.github.io/talk2bev/) 
+
+
+- LLM Arch: [Vicuna](https://lmsys.org/blog/2023-03-30-vicuna/), [Flan5XXL](https://huggingface.co/google/flan-t5-xxl)
+
+- Task: Perception, Planning
+
+- Metrics: Accuracy on MCQ, Jaccard Index, Distance Error
+
+- Datasets: [nuScenes](https://www.nuscenes.org/nuscenes)
+
+
+[**DriveLM: Driving with Graph Visual Question Answering**](https://arxiv.org/abs/2312.14150) [ECCV-2024]<br> Chonghao Sima, Katrin Renz, Kashyap Chitta, Li Chen, Hanxue Zhang, Chengen Xie, Jens Beißwenger, Ping Luo, Andreas Geiger, Hongyang Li <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OpenDriveLab/DriveLM) 
+
+
+- LLM Arch: [Vicuna](https://lmsys.org/blog/2023-03-30-vicuna/), [Flan5XXL](https://huggingface.co/google/flan-t5-xxl)
+
+- Task: Graph VQA, Perception, Prediction, Planning
+
+- Metrics: GPTScore, Meteor, BLEU1, CIDEr, ROUGE, Classification accuracy
+
+- Datasets:  [DriveLM-nuScenes](https://github.com/OpenDriveLab/DriveLM), [DriveLM-CARLA](https://github.com/OpenDriveLab/DriveLM)
+
+
+
+
 
 
 [🔼 Back to top](#Table-of-Contents)
@@ -246,6 +278,33 @@ for autonomous driving with 3d perception, reasoning and planninge**](https://ar
 - Task: Generation
 
 - Datasets: [nuScenes](https://www.nuscenes.org/nuscenes)
+
+[**GAIA-1: A Generative World Model for Autonomous Driving**](https://arxiv.org/abs/2309.17080) [arXiv-2024]<br> Anthony Hu, Lloyd Russell, Hudson Yeo, Zak Murez, George Fedoseev, Alex Kendall, Jamie Shotton, Gianluca Corrado <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://wayve.ai/thinking/scaling-gaia-1/) 
+
+
+- LLM Arch:  [DINO](https://github.com/facebookresearch/dino), [T5-large](https://huggingface.co/google-t5/t5-large)
+
+- Task: Planning Generation
+
+- Datasets: [GAIA-1](https://wayve.ai/thinking/scaling-gaia-1/)
+
+
+
+
+[**Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving**](https://arxiv.org/pdf/2311.17918.pdf) [CVPR-2024]<br> AYuqi Wang, Jiawei He, Lue Fan, Hongxin Li, Yuntao Chen, Zhaoxiang Zhang <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BraveGroup/Drive-WM) 
+
+
+- LLM Arch:  [CLIP](https://github.com/openai/CLIP), [GPT4-V](https://platform.openai.com/docs/models)
+- 
+- Task: Perception, Planning
+
+- Datasets: [nuScenes](https://www.nuscenes.org/nuscenes), [Waymo Open Dataset](https://waymo.com/open/)
+
+
+
+
 
 [🔼 Back to top](#Table-of-Contents)
 <hr />
