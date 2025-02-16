@@ -128,7 +128,7 @@ large language mode**](https://arxiv.org/abs/2310.01412) [RAL-2024]<br> Zhenhua 
 
 
 
-[**“A language agent for autonomous driving**](https://openreview.net/forum?id=UPE6WYE8vg#discussion) [COLM-2024]  <br>Jiageng Mao, Jiageng_Mao1, Junjie Ye, Yuxi Qian, Marco Pavone, Yue Wang<br>
+[**A language agent for autonomous driving**](https://openreview.net/forum?id=UPE6WYE8vg#discussion) [COLM-2024]  <br>Jiageng Mao, Jiageng_Mao1, Junjie Ye, Yuxi Qian, Marco Pavone, Yue Wang<br>
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/USC-GVL/Agent-Driver)
 
 - LLM Arch: [GPT-3.5](https://platform.openai.com/docs/models)
@@ -214,7 +214,7 @@ for autonomous driving with 3d perception, reasoning and planninge**](https://ar
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OpenDriveLab/DriveLM) 
 
 
-- LLM Arch: [Vicuna](https://lmsys.org/blog/2023-03-30-vicuna/), [Flan5XXL](https://huggingface.co/google/flan-t5-xxl)
+- LLM Arch: [Vicuna-13B](https://lmsys.org/blog/2023-03-30-vicuna/)
 
 - Task: Graph VQA, Perception, Prediction, Planning
 
@@ -225,6 +225,16 @@ for autonomous driving with 3d perception, reasoning and planninge**](https://ar
 
 
 
+[**LLMI3D: MLLM-based 3D Perception from a Single 2D Image**](https://arxiv.org/abs/2408.07422) [arXiv-2025]<br> Fan Yang, Sicheng Zhao, Yanhao Zhang, Hui Chen, Haonan Lu, Jungong Han, Guiguang Ding Li <br>
+
+
+- LLM Arch: [GPT4](https://platform.openai.com/docs/models)
+
+- Task: Perception, Reasoning.
+
+- Metrics:  Acc@0.25, Acc@0.5 (IoU thresholds of 25% and 50%), DepthError, LengthError, WidthError, and HeightError.
+
+- Datasets:  [IG3D](https://arxiv.org/abs/2408.07422)
 
 
 [🔼 Back to top](#Table-of-Contents)
