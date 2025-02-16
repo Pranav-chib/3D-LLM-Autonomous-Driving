@@ -79,6 +79,41 @@ large language mode**](https://arxiv.org/abs/2310.01412) [RAL-2024]<br> Zhenhua 
 
 - Datasets: [BDD-X](https://github.com/JinkyuKimUCB/BDD-X-dataset)
 
+
+
+[**Drive as You Speak: Enabling Human-Like Interaction with Large Language Models in Autonomous Vehicles**](https://openaccess.thecvf.com/content/WACV2024W/LLVM-AD/papers/Cui_Drive_As_You_Speak_Enabling_Human-Like_Interaction_With_Large_Language_WACVW_2024_paper.pdf) [WACV-2024 Workshop]<br> Can Cui, Yunsheng Ma, Xu Cao, Wenqian Ye, Ziran Wang <br>
+
+- LLM Arch: [GPT4](https://platform.openai.com/docs/models)
+
+- Task: Motion Planning
+  
+- Metrics: GPT Score
+
+
+
+[**Drive Like a Human: Rethinking Autonomous Driving with Large Language Models**](https://arxiv.org/abs/2307.07162) [WACV-2024 Workshop]<br> Daocheng Fu, Xin Li, Licheng Wen, Min Dou, Pinlong Cai, Botian Shi, Yu Qiao <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PJLab-ADG/DriveLikeAHuman) 
+
+- LLM Arch: [GPT-3.5](https://platform.openai.com/docs/models)
+  
+- Task: Planning, Control
+
+- Datasets: [HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv)
+
+
+[**Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving**](https://browse.arxiv.org/abs/2310.01957) [ICRA-2024]  <br>Long Chen, Oleg Sinavski, Jan Hünermann, Alice Karnsund, Andrew James Willmott, Danny Birch, Daniel Maund, Jamie Shotton <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wayveai/Driving-with-LLMs/tree/main/data)
+
+- LLM Arch: [GPT-3.5](https://platform.openai.com/docs/models)
+  
+- Task: Perception, Planning
+  
+- Metrics: MAE, GPT Grading
+
+- Datasets: [Driving QA](https://github.com/wayveai/Driving-with-LLMs/tree/main/data)
+
+
+
   
 [🔼 Back to top](#Table-of-Contents)
 <hr />
