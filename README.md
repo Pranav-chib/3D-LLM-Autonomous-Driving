@@ -114,6 +114,43 @@ large language mode**](https://arxiv.org/abs/2310.01412) [RAL-2024]<br> Zhenhua 
 
 
 
+
+[**LANGUAGEMPC: LARGE LANGUAGE MODELS AS DECISION MAKERS FOR AUTONOMOUS DRIVING**](https://arxiv.org/pdf/2310.03026) [arXiv-2023]  <br>Hao Sha, Yao Mu, Yuxuan Jiang, Li Chen, Chenfeng Xu, Ping Luo, Shengbo Eben Li, Masayoshi Tomizuka, Wei Zhan, Mingyu Ding <br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://sites.google.com/view/llm-mpc)
+
+- LLM Arch: [GPT-3.5](https://platform.openai.com/docs/models)
+  
+- Task: Planning, Control
+  
+- Metrics: Observation matrix, Weight matrix, Action bias, Collision Rate, Inefficiency, Time
+  
+- Datasets: [IdSim](https://github.com/liuyuqi123/ComplexUrbanScenarios)
+
+
+
+[**“A language agent for autonomous driving**](https://openreview.net/forum?id=UPE6WYE8vg#discussion) [COLM-2024]  <br>Jiageng Mao, Jiageng_Mao1, Junjie Ye, Yuxi Qian, Marco Pavone, Yue Wang<br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/USC-GVL/Agent-Driver)
+
+- LLM Arch: [GPT-3.5](https://platform.openai.com/docs/models)
+  
+- Task: Perception, Prediction, Planning
+  
+- Metrics: Avg. L2, Collision Rate
+  
+- Datasets: [nuScenes](https://www.nuscenes.org/nuscenes)
+
+
+[**“Asynchronous Large Language Model Enhanced Planner for Autonomous Driving**](https://arxiv.org/abs/2406.14556) [ECCV-2024]  <br>Yuan Chen, Zi-han Ding, Ziqin Wang, Yan Wang, Lijun Zhang, Si Liu<br>
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/memberRE/AsyncDriver)
+
+- LLM Arch: [Llama2-13B](https://huggingface.co/meta-llama/Llama-2-13b)
+  
+- Task: Planning
+  
+- Metrics: Driving direction compliance, Ego comfortable, Ego progress along the expert route, No ego at-fault collisions, Speed limit compliance, Time to collision 
+  
+- Datasets: [nuPlan](https://www.nuscenes.org/nuplan)
+
   
 [🔼 Back to top](#Table-of-Contents)
 <hr />
