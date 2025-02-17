@@ -11,7 +11,7 @@
 
 <hr />
 
-# <p align=center>3D Perception and LLM-based Autonomous Driving: A Survey of State-of-the-art <a href="https://medium.com/@pranavs_chib/end-to-end-autonomous-driving-using-deep-learning-8a94ecb3bb6b">
+# <p align=center>  <a href="https://medium.com/@pranavs_chib/end-to-end-autonomous-driving-using-deep-learning-8a94ecb3bb6b">
 
 
 
