@@ -19,7 +19,7 @@ Authors: [Nitin Dwivedi](https://github.com/), [Pranav Singh Chib](https://githu
 The ongoing advancements in 3D perception and the integration of Large Language Models (LLMs) in Autonomous Driving (AD) have significantly enhanced the capabilities of intelligent vehicles, building on the achievements of 2D perception in tasks like object detection, scene analysis, and language-guided reasoning. This paper presents a comprehensive survey of 3D perception-based LLM agents, examining their methodologies, applications, and potential to revolutionize autonomous systems. Uniquely, our work bridges a critical gap in the literature by offering the first meta-analysis exclusively focused on the synergy between 3D perception and LLMs, addressing emerging challenges such as 3D tokenization, spatial reasoning, and computational scalability. Unlike prior surveys centered on 2D tasks, this study provides an in-depth exploration of 3D-specific advancements, highlighting the transformative potential of these systems. The paper highlights the significance of this integration for fostering safer, human-centric AD, identifying opportunities to overcome current limitations, and driving innovation in intelligent mobility solutions.
 
 
-### <p align=center>**Timeline of existing LLMs integrated with 3D perception for AD in recent years**
+### <p align=center>**Timeline of existing LLMs integrated with 2D/3D perception for AD in recent years**
 
 
 <p align="center">
